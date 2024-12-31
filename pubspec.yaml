@@ -1,0 +1,33 @@
+name: eccomerce_shop_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# I should update this version each time I make a release of my app
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_iconly: ^1.0.2
+  card_swiper: ^2.0.4
+  page_transition: ^2.0.9
+  provider: ^6.0.5
+  fancy_shimmer_image: ^2.0.2
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/avatar.png
+    - assets/images/admin.png
+    - assets/images/customer.png
+    - assets/images/warning.png
